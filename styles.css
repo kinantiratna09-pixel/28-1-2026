@@ -1,0 +1,155 @@
+        /*RESET*/
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* → berarti semua elemen HTML
+        margin: 0 → menghapus jarak luar bawaan elemen
+        padding: 0 → menghapus jarak dalam bawaan elemen
+        box-sizing: border-box → membuat perhitungan ukuran elemen lebih rapi,
+        karena lebar dan tinggi sudah termasuk padding dan border */
+        /*GLOBAL*/
+        
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        /* font-family → menentukan jenis huruf utama website
+        Arial dipilih karena sederhana dan mudah dibaca
+        color: #333 → warna teks abu-abu gelap agar tidak terlalu tajam seperti hitam
+        line-height: 1.6 → mengatur jarak antar baris supaya teks nyaman dibaca*/
+        
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: auto;
+        }
+        /* .container → kelas untuk membatasi lebar konten
+        width: 90% → lebar konten 90% dari lebar layar
+        max-width: 900px → lebar maksimum konten 900px agar tidak terlalu lebar di layar besar
+        margin: auto → membuat konten berada di tengah layar */
+        
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        /* a → aturan untuk semua tautan
+        text-decoration: none → menghapus garis bawah pada tautan
+        color: inherit → membuat tautan memiliki warna yang sama dengan teks sekitarnya */
+        /*HEADER*/
+        
+        .header {
+            background: #1e3a8a;
+            color: white;
+            padding: 15px 0;
+        }
+        /* .header → kelas untuk bagian header
+        background: #1e3a8a → warna latar belakang biru tua
+        color: white → warna teks putih
+        padding: 15px 0 → jarak dalam atas dan bawah 15px */
+        
+        .logo {
+            font-size: 22px;
+        }
+        /* .logo → kelas untuk logo atau judul website
+        font-size: 22px → ukuran huruf 22px */
+        
+        .nav a {
+            margin-right: 15px;
+        }
+        /* .nav a → aturan untuk tautan di dalam navigasi
+        margin-right: 15px → jarak kanan antar tautan 15px */
+        /*HERO*/
+        
+        .hero {
+            background: #e5e7eb;
+            padding: 60px 0;
+            text-align: center;
+        }
+        /* .hero → kelas untuk bagian hero atau bagian utama
+        background: #e5e7eb → warna latar belakang abu-abu terang
+        padding: 60px 0 → jarak dalam atas dan bawah 60px
+        text-align: center → teks di dalam bagian ini rata tengah */
+        
+        .hero2 {
+            margin-bottom: 15px;
+        }
+        /*.hero2 → kelas untuk judul utama di bagian hero margin-bottom: 15px → jarak bawah 15px */
+        /*BUTTOM*/
+        
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            background: #1e3a8a;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+        }
+        /* .btn → kelas untuk tombol
+        display: inline-block → membuat tombol seperti elemen inline tapi bisa diatur ukurannya
+        margin-top: 20px → jarak atas tombol 20px
+        background: #1e3a8a → warna latar belakang tombol biru tua
+        color: white → warna teks tombol putih
+        padding: 10px 20px → jarak dalam atas/bawah 10px, kiri/kanan 20px
+        border-radius: 4px → sudut tombol sedikit membulat dengan radius 4px */
+        /*SECTIONS*/
+        
+        .section {
+            padding: 50px 0;
+        }
+        /* .section → kelas untuk setiap bagian konten
+        padding: 50px 0 → jarak dalam atas dan bawah 50px */
+        
+        .section h2 {
+            margin-bottom: 15px;
+        }
+        /* .section h2 → aturan untuk judul di dalam bagian
+        margin-bottom: 15px → jarak bawah judul 15px */
+        
+        .light {
+            background: #f9fafb;
+        }
+        /* .light → kelas tambahan untuk bagian dengan latar belakang terang
+        background: #f9fafb → warna latar belakang abu-abu sangat terang */
+        /*LISTS*/
+        
+        .list {
+            margin-left: 20pc;
+        }
+        /* .list → kelas untuk daftar
+        margin-left: 20pc → jarak kiri daftar 20pc */
+        
+        .list li {
+            margin-bottom: 8px;
+        }
+        /* .list li → aturan untuk setiap item dalam daftar
+        margin-bottom: 8px → jarak bawah antar item daftar 8px */
+        /*CTA*/
+        
+        .cta {
+            background: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 60px 0;
+        }
+        /* .cta → kelas untuk bagian ajakan bertindak
+        background: #1e3a8a → warna latar belakang biru tua
+        color: white → warna teks putih
+        text-align: center → teks di dalam bagian ini rata tengah
+        padding: 60px 0 → jarak dalam atas dan bawah 60px */
+        /*FOOTER*/
+        
+        .footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+        /* .footer → kelas untuk bagian footer
+        background: #111827 → warna latar belakang abu-abu sangat gelap
+        color: white → warna teks putih
+        text-align: center → teks di dalam bagian ini rata tengah
+        padding: 15px 0 → jarak dalam atas dan bawah 15px */
